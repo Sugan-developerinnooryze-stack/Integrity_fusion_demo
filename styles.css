@@ -108,7 +108,8 @@ p { margin: 0 0 14px; color: var(--gray-700); }
 .site-header { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 60; }
 .header-inner { display: flex; align-items: center; gap: 28px; padding: 14px 24px; }
 .logo { display: flex; align-items: center; gap: 10px; color: var(--forest); flex-shrink: 0; }
-.logo-mark { color: var(--forest); }
+.logo-mark { color: var(--forest); display: flex; flex-shrink: 0; }
+.logo-mark img { display: block; width: 44px; height: 44px; object-fit: contain; }
 .logo-wordmark { display: flex; align-items: center; gap: 4px; line-height: 1; }
 .logo-big-i {
   font-family: var(--font-display);
