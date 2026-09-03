@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Integrity Fusion Products — LeadRyze AI Chatbot Demo</title>
+<meta name="description" content="LeadRyze AI chatbot integration demo built on an industrial HDPE fittings & equipment manufacturer website concept." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ TOP UTILITY BAR ============ -->
+<div class="utility-bar">
+  <div class="container utility-bar-inner">
+    <a class="utility-phone" href="tel:18887706330">📞 Give Us A Call: 1-888-770-6330</a>
+    <div class="utility-lang">
+      <button type="button" class="lang-btn active">English</button>
+      <button type="button" class="lang-btn">Français</button>
+      <button type="button" class="lang-btn">Español</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER / MAIN NAV ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="44" height="44">
+          <path d="M32 3 A29 29 0 1 1 3 32" fill="none" stroke="#c3d08a" stroke-width="5.5" stroke-linecap="round"/>
+          <path d="M32 12 A20 20 0 1 1 12 32" fill="none" stroke="#8ea555" stroke-width="5.5" stroke-linecap="round"/>
+          <path d="M32 21 A11 11 0 1 1 21 32" fill="none" stroke="#547031" stroke-width="5.5" stroke-linecap="round"/>
+          <circle cx="32" cy="32" r="3.5" fill="#1f3a24"/>
+        </svg>
+      </span>
+      <span class="logo-wordmark">
+        <span class="logo-big-i">I</span>
+        <span class="logo-wordmark-lines">
+          <strong>NTEGRITY</strong>
+          <small>Fusion Products, Inc.</small>
+        </span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#" data-action="open3d">3-D Fitting Library</a></li>
+        <li class="has-mega">
+          <a href="#explorer" data-type="fittings">Fittings</a>
+          <div class="mega-menu" id="megaFittings">
+            <div class="mega-col">
+              <h4>Molded Butt Fusion</h4>
+              <ul>
+                <li><a href="#explorer" data-family="Molded Butt Fusion" data-type-item="Elbow">Elbows</a></li>
+                <li><a href="#explorer" data-family="Molded Butt Fusion" data-type-item="Tee">Tees</a></li>
+                <li><a href="#explorer" data-family="Molded Butt Fusion" data-type-item="Wye">Wyes</a></li>
+                <li><a href="#explorer" data-family="Molded Butt Fusion" data-type-item="Cross">Cross</a></li>
+                <li><a href="#explorer" data-family="Molded Butt Fusion" data-type-item="Reducer">Reducers</a></li>
+                <li><a href="#explorer" data-family="Molded Butt Fusion" data-type-item="Cap">Caps</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4>Electrofusion</h4>
+              <ul>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Coupler">Couplers</a></li>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Elbow">Elbows</a></li>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Tee">Equal Tees</a></li>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Reducer">Reducers</a></li>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Branch Saddle">Branch Saddles</a></li>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Transition Saddle">Transition Saddles</a></li>
+                <li><a href="#explorer" data-family="Electrofusion" data-type-item="Flex Restraint">Flex Restraints</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4>Valves &amp; Transitions</h4>
+              <ul>
+                <li><a href="#explorer" data-family="Poly Ball Valves">Poly Ball Valves</a></li>
+                <li><a href="#explorer" data-family="Transition Fittings" data-type-item="Standard">Standard</a></li>
+                <li><a href="#explorer" data-family="Transition Fittings" data-type-item="Stainless Steel">Stainless Steel</a></li>
+                <li><a href="#explorer" data-family="Transition Fittings" data-type-item="Heavy Duty">Heavy Duty</a></li>
+                <li><a href="#explorer" data-family="Transition Fittings" data-type-item="Weld End">Weld End</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4>Adapters &amp; Rings</h4>
+              <ul>
+                <li><a href="#explorer" data-family="Flange Adapters">Flange Adapters</a></li>
+                <li><a href="#explorer" data-family="Backup Rings" data-type-item="SDR 7">Backup Rings — SDR 7</a></li>
+                <li><a href="#explorer" data-family="Backup Rings" data-type-item="SDR 11">Backup Rings — SDR 11</a></li>
+                <li><a href="#explorer" data-family="Backup Rings" data-type-item="DIPS SDR 11">Backup Rings — DIPS SDR 11</a></li>
+                <li><a href="#explorer" data-family="Backup Rings" data-type-item="Stainless Steel">Backup Rings — Stainless</a></li>
+                <li><a href="#explorer" data-family="MJ Adapters">MJ Adapters</a></li>
+                <li><a href="#explorer" data-family="MJ Adapter Gland Ring Kits">MJ Gland Ring Kits</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="has-mega">
+          <a href="#explorer" data-type="equipment">Equipment</a>
+          <div class="mega-menu mega-menu-narrow" id="megaEquipment">
+            <div class="mega-col">
+              <h4>Electrofusion Processors</h4>
+              <ul>
+                <li><a href="#explorer" data-family="Electrofusion Processors" data-type-item="I-60">I-60</a></li>
+                <li><a href="#explorer" data-family="Electrofusion Processors" data-type-item="I-105">I-105</a></li>
+              </ul>
+            </div>
+            <div class="mega-col">
+              <h4>Field Tools</h4>
+              <ul>
+                <li><a href="#explorer" data-family="Re-Rounding Clamps">Re-Rounding Clamps</a></li>
+                <li><a href="#explorer" data-family="Scraper/Peeler Tools" data-type-item="Orbital">Orbital Scraper/Peeler</a></li>
+                <li><a href="#explorer" data-family="Scraper/Peeler Tools" data-type-item="Rotary">Rotary Scraper/Peeler</a></li>
+                <li><a href="#explorer" data-family="Scraper/Peeler Tools" data-type-item="Chain">Chain Scraper/Peeler</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#academy">Training</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="icon-btn" id="searchToggle" aria-label="Search products">
+        <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button type="button" class="btn btn-primary" id="openQuoteBtn">Request a Quote</button>
+      <button type="button" class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search flyout -->
+  <div class="search-flyout" id="searchFlyout">
+    <div class="container">
+      <input type="text" id="searchInput" placeholder="Search products… e.g. reducer, electrofusion, I-60, 6 inch" autocomplete="off" />
+      <div id="searchSuggestions" class="search-suggestions"></div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile nav -->
+<div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-section">
+    <a href="#top" class="mobile-close-target">Home</a>
+    <a href="#" data-action="open3d">3-D Fitting Library</a>
+    <button type="button" class="mobile-accordion-toggle">Fittings <span>+</span></button>
+    <div class="mobile-accordion">
+      <a href="#explorer" data-family="Molded Butt Fusion">Molded Butt Fusion</a>
+      <a href="#explorer" data-family="Electrofusion">Electrofusion</a>
+      <a href="#explorer" data-family="Poly Ball Valves">Poly Ball Valves</a>
+      <a href="#explorer" data-family="Transition Fittings">Transition Fittings</a>
+      <a href="#explorer" data-family="Flange Adapters">Flange Adapters</a>
+      <a href="#explorer" data-family="Backup Rings">Backup Rings</a>
+      <a href="#explorer" data-family="MJ Adapters">MJ Adapters</a>
+      <a href="#explorer" data-family="MJ Adapter Gland Ring Kits">MJ Adapter Gland Ring Kits</a>
+    </div>
+    <button type="button" class="mobile-accordion-toggle">Equipment <span>+</span></button>
+    <div class="mobile-accordion">
+      <a href="#explorer" data-family="Electrofusion Processors">Electrofusion Processors</a>
+      <a href="#explorer" data-family="Re-Rounding Clamps">Re-Rounding Clamps</a>
+      <a href="#explorer" data-family="Scraper/Peeler Tools">Scraper/Peeler Tools</a>
+    </div>
+    <a href="#about">About Us</a>
+    <a href="#careers">Careers</a>
+    <a href="#academy">Training</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+<div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Molded For Your Industry</span>
+        <h1>Advanced HDPE Fittings &amp; Equipment for Critical Infrastructure</h1>
+        <p>Explore fittings, equipment and technical solutions for water, wastewater, industrial, mining, oil &amp; gas and other demanding applications — now with an AI product assistant that helps visitors find the right part in seconds.</p>
+        <div class="hero-actions">
+          <a href="#explorer" class="btn btn-primary btn-lg">Explore Fittings</a>
+          <button type="button" class="btn btn-outline btn-lg" id="heroQuoteBtn">Request a Quote</button>
+        </div>
+        <div class="hero-badges">
+          <span>HDPE</span><span>Engineered</span><span>Industrial</span><span>USA</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-visual-card">
+          <svg viewBox="0 0 320 260" width="100%" height="100%">
+            <rect x="10" y="150" width="300" height="90" rx="6" fill="#eef0e4"/>
+            <rect x="30" y="60" width="120" height="90" rx="4" fill="#f6f4ea" stroke="#c9d0b0" stroke-width="2"/>
+            <rect x="170" y="30" width="120" height="120" rx="4" fill="#f6f4ea" stroke="#c9d0b0" stroke-width="2"/>
+            <circle cx="90" cy="105" r="26" fill="none" stroke="#2f5233" stroke-width="6"/>
+            <circle cx="230" cy="90" r="34" fill="none" stroke="#2f5233" stroke-width="6"/>
+            <path d="M60 210 h200" stroke="#2f5233" stroke-width="10" stroke-linecap="round"/>
+            <path d="M60 210 v-30 a20 20 0 0 1 20 -20 h40" fill="none" stroke="#7a8a4c" stroke-width="10" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INDUSTRY ICON STRIP ============ -->
+  <section class="industry-strip">
+    <div class="container industry-grid" id="industryGrid"></div>
+  </section>
+
+  <!-- ============ TRUST / BABA BANNER ============ -->
+  <section class="trust-banner">
+    <div class="container trust-inner">
+      <div class="trust-flag" aria-hidden="true">
+        <svg viewBox="0 0 60 40" width="56"><rect width="60" height="40" fill="#b22234"/><g fill="#fff"><rect y="3" width="60" height="3"/><rect y="9" width="60" height="3"/><rect y="15" width="60" height="3"/><rect y="21" width="60" height="3"/><rect y="27" width="60" height="3"/><rect y="33" width="60" height="3"/></g><rect width="26" height="21" fill="#3c3b6e"/></svg>
+        <span>MADE IN USA</span>
+      </div>
+      <div class="trust-copy">
+        <h3>Selected Product Lines Are Made in USA / BABA-Compliant</h3>
+        <p>In this demo, IntegriFuse-style molded butt-fusion fittings, flange adapters and MJ adapters are presented as Made in USA and Build America, Buy America Act (BABA) compliant. Not every product line carries this designation — each product card shows the applicable badges.</p>
+      </div>
+      <div class="trust-actions">
+        <a href="#explorer" class="btn btn-primary">View Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AI VS TRADITIONAL STORY ============ -->
+  <section class="ai-story">
+    <div class="container ai-story-inner">
+      <div class="ai-story-col">
+        <span class="eyebrow eyebrow-light">The traditional way</span>
+        <ol class="ai-story-steps">
+          <li>Open Fittings menu</li>
+          <li>Choose Molded Butt Fusion</li>
+          <li>Choose Reducers</li>
+          <li>Scan sizes manually</li>
+          <li>Read a spec sheet</li>
+        </ol>
+      </div>
+      <div class="ai-story-divider" aria-hidden="true">→</div>
+      <div class="ai-story-col ai-story-highlight">
+        <span class="eyebrow eyebrow-light">The LeadRyze AI way</span>
+        <p class="ai-story-quote">“I need something to connect a 6-inch HDPE pipe for wastewater.”</p>
+        <ol class="ai-story-steps">
+          <li>AI parses application + size + intent</li>
+          <li>AI recommends the matching product</li>
+          <li>AI answers technical questions</li>
+          <li>AI captures a quote request</li>
+          <li>LeadRyze creates the CRM lead automatically</li>
+        </ol>
+        <button type="button" class="btn btn-primary" id="aiStoryTryBtn">Try the AI Assistant</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT EXPLORER ============ -->
+  <section class="explorer" id="explorer">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Product Catalog</span>
+        <h2>Browse Our Products</h2>
+        <p>Filter by type, category, application or connection — or just ask the AI Product Assistant.</p>
+      </div>
+
+      <div class="explorer-layout">
+        <aside class="filters" id="filtersPanel">
+          <div class="filters-head">
+            <h3>Filters</h3>
+            <button type="button" class="link-btn" id="clearFiltersBtn">Clear all</button>
+          </div>
+
+          <div class="filter-group">
+            <label>Product Type</label>
+            <div class="pill-group" id="filterType">
+              <button type="button" class="pill active" data-value="">All Products</button>
+              <button type="button" class="pill" data-value="Fittings">Fittings</button>
+              <button type="button" class="pill" data-value="Equipment">Equipment</button>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filterFamily">Category</label>
+            <select id="filterFamily"><option value="">All Categories</option></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filterApplication">Application</label>
+            <select id="filterApplication"><option value="">All Applications</option></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filterConnection">Connection</label>
+            <select id="filterConnection"><option value="">All Connections</option></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filterSize">Pipe Size</label>
+            <select id="filterSize"><option value="">Any Size</option></select>
+          </div>
+
+          <div class="filter-group">
+            <label for="filterSdr">SDR</label>
+            <select id="filterSdr"><option value="">Any SDR</option></select>
+          </div>
+        </aside>
+
+        <div class="explorer-results">
+          <div class="explorer-toolbar">
+            <div class="explorer-count" id="resultsCount">Showing all products</div>
+            <div class="explorer-search">
+              <input type="text" id="explorerSearch" placeholder="Search within results…" />
+            </div>
+          </div>
+          <div class="product-grid" id="productGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <p>No products match these filters.</p>
+            <button type="button" class="btn btn-outline" id="emptyResetBtn">Reset filters</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACADEMY / TRAINING ============ -->
+  <section class="academy" id="academy">
+    <div class="container academy-inner">
+      <div class="academy-copy">
+        <div class="academy-logo">INTEGRITY <strong>FUSION</strong><span>ACADEMY</span></div>
+        <h2>Your Online Electrofusion Training Resource</h2>
+        <p>Whether new to electrofusion installation or an experienced installer seeking recertification, explore self-paced training modules covering fundamentals, equipment operation and installation best practices.</p>
+        <button type="button" class="btn btn-primary" id="exploreTrainingBtn">Explore Training</button>
+      </div>
+      <div class="academy-visual">
+        <span>NOW THAT'S AN INSPIRED FUSION OF IDEAS</span>
+        <div class="play-btn" aria-hidden="true">▶</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TECHNICAL RESOURCES ============ -->
+  <section class="resources">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Documentation</span>
+        <h2>Technical Resources</h2>
+      </div>
+      <div class="resources-grid" id="resourcesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT / TRUST CARDS ============ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Why Integrity Fusion Products</span>
+        <h2>Why Choose Our Products?</h2>
+      </div>
+      <div class="about-grid" id="aboutGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ CAREERS ============ -->
+  <section class="careers" id="careers">
+    <div class="container careers-inner">
+      <div class="careers-visual" aria-hidden="true">
+        <svg viewBox="0 0 200 200" width="100%"><rect width="200" height="200" rx="12" fill="#eef0e4"/><circle cx="100" cy="80" r="34" fill="#c9d0b0"/><rect x="55" y="120" width="90" height="55" rx="10" fill="#c9d0b0"/></svg>
+      </div>
+      <div class="careers-copy">
+        <h2>Join Our Team!</h2>
+        <p>We are seeking highly motivated individuals to join us in our mission to provide top-quality products to our customers. Take the next step in your career and apply now to become part of our innovative and dynamic team.</p>
+        <button type="button" class="btn btn-primary" id="exploreCareersBtn">Explore Careers</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="certs">
+    <div class="container certs-row" id="certsRow"></div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo-wordmark logo-wordmark-footer">
+        <span class="logo-big-i">I</span>
+        <span class="logo-wordmark-lines">
+          <strong>NTEGRITY</strong>
+          <small>Fusion Products, Inc.</small>
+        </span>
+      </div>
+      <p>Engineered HDPE fittings and equipment for water, energy, and industrial infrastructure — built for performance, backed by support.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#about">About Us</a>
+      <a href="#about">Why HDPE?</a>
+      <a href="#">Certifications</a>
+      <a href="#">Policies</a>
+      <a href="#careers">Careers</a>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="#explorer" data-type="fittings">Fittings</a>
+      <a href="#explorer" data-type="equipment">Equipment</a>
+      <a href="#explorer">Product Catalog</a>
+      <a href="#" data-action="open3d">3-D Library</a>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <a href="#academy">Training</a>
+      <a href="#">Installation Instructions</a>
+      <a href="#">Technical Resources</a>
+      <a href="#">Submittal Packages</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:18887706330">1-888-770-6330</a>
+      <a href="mailto:sales@integrityfusion-demo.ai">sales@integrityfusion-demo.ai</a>
+      <span>Industrial Way, Bakersfield, CA</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span>© 2026 Integrity Fusion Demo. All rights reserved.</span>
+      <span class="powered-by">⚡ Powered by <strong>LeadRyze AI</strong></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ PRODUCT DETAIL MODAL ============ -->
+<div class="modal-overlay" id="productModalOverlay">
+  <div class="modal modal-lg" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+    <button type="button" class="modal-close" data-close-modal>✕</button>
+    <div class="modal-body" id="productModalBody"></div>
+  </div>
+</div>
+
+<!-- ============ REQUEST QUOTE MODAL ============ -->
+<div class="modal-overlay" id="quoteModalOverlay">
+  <div class="modal modal-md" role="dialog" aria-modal="true" aria-labelledby="quoteModalTitle">
+    <button type="button" class="modal-close" data-close-modal>✕</button>
+    <div class="modal-body">
+      <h3 id="quoteModalTitle">Request a Quote</h3>
+      <p class="modal-sub">Tell us what you need and a sales representative will follow up.</p>
+      <form id="quoteForm">
+        <div class="form-grid">
+          <div class="form-field"><label>First Name*</label><input required name="firstName" type="text" /></div>
+          <div class="form-field"><label>Last Name*</label><input required name="lastName" type="text" /></div>
+          <div class="form-field"><label>Company*</label><input required name="company" type="text" /></div>
+          <div class="form-field"><label>Email*</label><input required name="email" type="email" /></div>
+          <div class="form-field"><label>Phone</label><input name="phone" type="tel" /></div>
+          <div class="form-field">
+            <label>Industry</label>
+            <select name="industry" id="quoteIndustry"></select>
+          </div>
+          <div class="form-field">
+            <label>Product Category</label>
+            <select name="family" id="quoteFamily"><option value="">Select…</option></select>
+          </div>
+          <div class="form-field">
+            <label>Product</label>
+            <select name="product" id="quoteProduct"><option value="">Select…</option></select>
+          </div>
+          <div class="form-field"><label>Quantity</label><input name="quantity" type="number" min="1" /></div>
+          <div class="form-field"><label>Project Location</label><input name="location" type="text" /></div>
+        </div>
+        <div class="form-field">
+          <label>Message</label>
+          <textarea name="message" rows="3" placeholder="Additional requirements…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit Quote Request</button>
+      </form>
+      <div class="quote-success" id="quoteSuccess" hidden></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 3D LIBRARY MODAL ============ -->
+<div class="modal-overlay" id="library3dOverlay">
+  <div class="modal modal-lg" role="dialog" aria-modal="true">
+    <button type="button" class="modal-close" data-close-modal>✕</button>
+    <div class="modal-body">
+      <h3>3-D Fitting Library</h3>
+      <p class="modal-sub">A lightweight CSS-based 3-D preview — rotate any fitting to inspect it.</p>
+      <div class="lib3d-layout">
+        <div class="lib3d-viewer">
+          <div class="lib3d-stage" id="lib3dStage"></div>
+        </div>
+        <div class="lib3d-controls">
+          <div class="lib3d-list" id="lib3dList"></div>
+          <div class="lib3d-buttons">
+            <button type="button" class="btn btn-outline" id="lib3dRotateBtn">Rotate</button>
+            <button type="button" class="btn btn-outline" id="lib3dResetBtn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SIMPLE INFO MODAL (resources / training / careers) ============ -->
+<div class="modal-overlay" id="infoModalOverlay">
+  <div class="modal modal-md" role="dialog" aria-modal="true">
+    <button type="button" class="modal-close" data-close-modal>✕</button>
+    <div class="modal-body" id="infoModalBody"></div>
+  </div>
+</div>
+
+<!-- ============ AI CHATBOT ============ -->
+<!-- <button type="button" class="chatbot-fab" id="chatbotFab" aria-label="Open AI Product Assistant">
+  <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7v3.5L3 17h6.09A3 3 0 0 0 12 20a3 3 0 0 0 2.91-3H21l-2-4.5V9a7 7 0 0 0-7-7z"/></svg>
+  <span class="chatbot-fab-badge" id="chatbotFabBadge">1</span>
+</button> -->
+
+<div class="chatbot-panel" id="chatbotPanel">
+  <div class="chatbot-header">
+    <div class="chatbot-header-copy">
+      <strong>Integrity AI Product Assistant</strong>
+      <span>Product • Technical • Quote Support</span>
+    </div>
+    <div class="chatbot-status"><i></i> Online</div>
+    <button type="button" class="chatbot-close" id="chatbotCloseBtn" aria-label="Close chat">✕</button>
+  </div>
+
+  <div class="chatbot-body" id="chatbotBody">
+    <div class="chatbot-welcome" id="chatbotWelcome">
+      <p><strong>Hi! I'm your AI Product Assistant.</strong></p>
+      <p>I can help you find HDPE fittings and equipment, answer product questions, and start a quote request.</p>
+      <div class="chatbot-quick-actions" id="chatbotQuickActions"></div>
+    </div>
+    <div class="chatbot-thread" id="chatbotThread"></div>
+  </div>
+
+  <form class="chatbot-input-row" id="chatbotForm">
+    <input type="text" id="chatbotInput" placeholder="Type a message…" autocomplete="off" />
+    <button type="submit" aria-label="Send">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg>
+    </button>
+  </form>
+</div>
+<div class="chatbot-backdrop" id="chatbotBackdrop"></div>
+
+<!-- ============ TOASTS ============ -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
